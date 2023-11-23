@@ -21,6 +21,7 @@
     "react-countup": "^6.5.0",
     "react-dom": "^18.2.0",
     "react-router-dom": "^6.20.0",
+    "react-type-animation": "^3.2.0",
     "swiper": "^11.0.5",
     "tailwind-scrollbar": "^3.0.5",
     "typewriter-effect": "^2.21.0"
