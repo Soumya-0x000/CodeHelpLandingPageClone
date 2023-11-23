@@ -1,6 +1,6 @@
 import React from 'react'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faTrashCan } from '@fortawesome/free-regular-svg-icons';
+import { faXmarkCircle } from '@fortawesome/free-regular-svg-icons';
 
 const Image = ({handleImageUpload, img, imgFileName, setImgFileName, setImgDataURL, imgDataURL}) => {
     
@@ -41,7 +41,7 @@ const Image = ({handleImageUpload, img, imgFileName, setImgFileName, setImgDataU
                         setImgDataURL();
                         a.preventDefault();
                     }}>
-                        <FontAwesomeIcon icon={faTrashCan} className='text-[1.3rem]'/>
+                        <FontAwesomeIcon icon={faXmarkCircle} className='text-[1.3rem]'/>
                     </button>
 
                 </div>
